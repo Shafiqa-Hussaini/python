@@ -11,8 +11,7 @@ for value in values:
     elif values < 0:
         Negative_values.append(values)
 
-    else:
-        Zero_values.append(values)
+    else:Zero_values.append(values)
 
 print("Positive values:", positive_values)
 print("Negative values:", negative_values)
